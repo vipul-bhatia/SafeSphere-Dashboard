@@ -1,6 +1,6 @@
-import VideoThumb from '@/public/images/hero-image.png'
-import MainPhoto from '@/public/images/main-photo.png'
-import ModalVideo from '@/components/modal-video'
+import VideoThumb from '../public/images/hero-image.png'
+import MainPhoto from '../public/images/main-photo.png'
+import ModalVideo from '../components/modal-video'
 import Link from 'next/link';
 import Image from 'next/image'
 

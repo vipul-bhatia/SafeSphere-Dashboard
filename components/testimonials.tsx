@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import TestimonialImage from '@/public/images/testimonial.jpg'
-import certi1 from '@/public/images/certi1.jpeg'
-import certi2 from '@/public/images/certi2.jpeg'
+import TestimonialImage from '../public/images/testimonial.jpg'
+import certi1 from '../public/images/certi1.jpeg'
+import certi2 from '../public/images/certi2.jpeg'
 import Link from 'next/link'
 
 export default function Testimonials() {
