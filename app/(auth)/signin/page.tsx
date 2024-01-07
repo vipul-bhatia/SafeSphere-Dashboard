@@ -3,11 +3,11 @@ export const metadata = {
   description: 'Page description',
 }
 
-import Features from '@/components/features'
-import FeaturesBlocks from '@/components/features-blocks'
-import Hero from '@/components/hero'
-import Newsletter from '@/components/newsletter'
-import Testimonials from '@/components/testimonials'
+import Features from '../../../components/features'
+import FeaturesBlocks from '../../../components/features-blocks'
+import Hero from '../../../components/hero'
+import Newsletter from '../../../components/newsletter'
+import Testimonials from '../../../components/testimonials'
 import Link from 'next/link'
 
 
