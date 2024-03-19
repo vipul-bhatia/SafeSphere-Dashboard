@@ -281,23 +281,27 @@ const initialSteps: Step[] = [
     {
       questions: [
         {
-          question: "Does your organization collect digital personal data from individuals?",
+          question: "Do you collect digital personal data or information from individuals, vendors, and employees or from any other mode or manner or source?",
           options: ["Yes", "No", "Maybe", "Sometimes"],
         },
         {
-          question: "Do you collect data by e-mail, electronic forms, activity tracking or any other manner?",
+          question: "How do you collect data or information: - by e-mail, electronic forms, data submitted on your website or app, activity tracking, cookies, or any other manner? Please clarify. (or all of the above modes).",
           options: ["Yes", "No", "Maybe", "Sometimes"],
         },
         {
-          question: "Do you issue any intimation by way of Notice before making a request for collecting and processing of digital personal data of individuals? ",
+          question: "If yes, for what specific purpose do you collect, use, or process the digital personal data or information?",
           options: ["Yes", "No", "Maybe", "Sometimes"],
         },
         {
-          question: "Have you mentioned in your Notice the 'detail’ or ‘nature’ of the digital personal data requested to be collected or was collected from individuals?",
+          question: "Do you issue any prior Notice before making a request for collecting, use and processing of digital personal data?",
           options: ["Yes", "No", "Maybe", "Sometimes"],
         },
         {
-          question: "Do you comply with the provision Section 5 and Section 6 and the rules prescribed under DPDP Act related to Notice and Consent?",
+          question: "Do you obtain ‘Consent’ before collecting, using, or processing digital personal data?",
+          options: ["Yes", "No", "Maybe", "Sometimes"],
+        },
+        {
+          question: "Have you appointed a Consent Manager?s",
           options: ["Yes", "No", "Maybe", "Sometimes"],
         },
       ],
@@ -305,44 +309,119 @@ const initialSteps: Step[] = [
     {
       questions: [
         {
-          question: "Do you engage, appoint, use, or otherwise involve a Data Processor to process digital personal data on your behalf for any activity related to offering of goods or services to individuals?",
-          options: ["Option X", "Option Y", "Option Z"],
+          question: "Do you share the collected digital personal data or information with the third parties?",
+          options: ["Yes", "No", "Maybe", "Sometimes"],
         },
         {
-          question: "Do you engage, appoint, use, or otherwise involve a Data Processor only under a valid contract?",
-          options: ["Option X", "Option Y", "Option Z"],
+          question: "Do you obtain consent of the owner of the digital personal data or information before sharing it with the third parties?",
+          options: ["Yes", "No", "Maybe", "Sometimes"],
         },
         {
-          question: "Do you disclose digital personal data to another Data Fiduciary for processing?",
-          options: ["Option X", "Option Y", "Option Z"],
+          question: "Do you engage, appoint, or involve a third party for processing of collected digital personal data or information?",
+          options: ["Yes", "No", "Maybe", "Sometimes"],
+        },
+        {
+          question: "Have you established any mechanism to answer to the complaints from the owner of the data?",
+          options: ["Yes", "No", "Maybe", "Sometimes"],
+        },
+        {
+          question: "Have you published the contact information of a Data Protection Officer?",
+          options: ["Yes", "No", "Maybe", "Sometimes"],
+        },
+        {
+          question: "Have you published the contact information of a Grievance Officer?",
+          options: ["Yes", "No", "Maybe", "Sometimes"],
+        },
+        {
+          question: "Do you fall under the category of a Significant Data Fiduciary (‘SDF’)?",
+          options: ["Yes", "No", "Maybe", "Sometimes"],
+        },
+        {
+          question: "Being an SDF have you appointed a Data Protection Officer based in India?",
+          options: ["Yes", "No", "Maybe", "Sometimes"],
+        },
+        {
+          question: "Being an SDF have you appointed an independent data auditor?",
+          options: ["Yes", "No", "Maybe", "Sometimes"],
         },
       ],
     },
     {
         questions: [
           {
-            question: "Does your organization collect digital personal data from individuals?",
+            question: "Do you have a data protection policy within your organization?",
             options: ["Yes", "No", "Maybe", "Sometimes"],
           },
           {
-            question: "Another question in the same step?",
-            options: ["Option A", "Option B", "Option C"],
+            question: "Do you implement appropriate technical measures to ensure effective observance of security safeguards?",
+            options: ["Yes", "No", "Maybe", "Sometimes"],
+          },
+          {
+            question: "Do you maintain requisite security safeguards to protect digital personal data?",
+            options: ["Yes", "No", "Maybe", "Sometimes"],
+          },
+          {
+            question: "Do you maintain requisite security safeguards to prevent and avoid unauthorized access and personal data breach?",
+            options: ["Yes", "No", "Maybe", "Sometimes"],
+          },
+          {
+            question: "Do you have a system of logs such as ‘Access log’ that records who and when someone enters digital personal data database to processes, modify, erase, or accesses personal data?",
+            options: ["Yes", "No", "Maybe", "Sometimes"],
+          },
+          {
+            question: "Do you maintain proper network and security standards to detect suspicious activity related to protection of personal data in your control and possession?",
+            options: ["Yes", "No", "Maybe", "Sometimes"],
           },
         ],
       },
       {
         questions: [
           {
-            question: "Does your organization collect digital personal data from individuals?",
+            question: "Do you have a data retention policy?",
             options: ["Yes", "No", "Maybe", "Sometimes"],
           },
           {
-            question: "Another question in the same step?",
-            options: ["Option A", "Option B", "Option C"],
+            question: "Is your data retention policy complying with the provisions of DPDP Act?",
+            options: ["Yes", "No", "Maybe", "Sometimes"],
+          },
+          {
+            question: "Do you have a policy on data breach alerts or notification?",
+            options: ["Yes", "No", "Maybe", "Sometimes"],
+          },
+          {
+            question: "Does the Data Processor appointed by you have a policy on data breach alerts or notification?",
+            options: ["Yes", "No", "Maybe", "Sometimes"],
+          },
+          {
+            question: "Do you inform the effected owner of the personal data about an unauthorized access or personal data breach?",
+            options: ["Yes", "No", "Maybe", "Sometimes"],
           },
         ],
       },
-    // Add more steps as needed
+      {
+        questions: [
+          {
+            question: "Do you ensure requisite security safeguards and compliance while sharing or transferring digital personal data with third parties outside India?",
+            options: ["Yes", "No", "Maybe", "Sometimes"],
+          },
+          {
+            question: "Do you take ‘Consent’ separately before sharing or transferring digital personal data with third parties outside India? If yes, please explain.",
+            options: ["Yes", "No", "Maybe", "Sometimes"],
+          },
+          {
+            question: "Do you allow owner of digital personal data / information to exercise his or her rights to access, correct, or delete the digital personal data?",
+            options: ["Yes", "No", "Maybe", "Sometimes"],
+          },
+          {
+            question: "Do you provide training and awareness programs regarding data protection and compliance?",
+            options: ["Yes", "No", "Maybe", "Sometimes"],
+          },
+          {
+            question: "Do you regularly conduct such training and awareness programs regarding data protection and compliance?",
+            options: ["Yes", "No", "Maybe", "Sometimes"],
+          },
+        ],
+      },
   ];
   
 
